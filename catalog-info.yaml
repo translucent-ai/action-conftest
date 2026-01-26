@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: action-conftest
+  description: Easily run Conftest, pull remote policies, surface the results
+  annotations:
+    github.com/project-slug: translucent-ai/action-conftest
+  tags:
+    - github-actions
+    - conftest
+    - policy
+    - opa
+spec:
+  type: library
+  lifecycle: production
+  owner: platform
+  system: ci-tooling
