@@ -13,5 +13,5 @@ metadata:
 spec:
   type: library
   lifecycle: production
-  owner: platform
-  system: ci-tooling
+  owner: group:default/platform
+  system: developer-platform
